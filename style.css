@@ -1,0 +1,154 @@
+.*
+{
+
+}
+
+:root
+{
+
+}
+
+body
+{
+font-family: Lato, sans-serif;
+background-color: #d98920;
+color: #d4dbe4;
+
+}
+
+
+.main
+{
+//background-color: rgb(216, 123, 35);
+}
+
+.header
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;  
+}
+
+.container
+{
+    /* Styling for underflow background <img> */
+
+    /* background-color: rgb(55, 69, 23); */
+    background-image: url('/Unsplash/patrick-konior-EQLN-txSulM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+
+    /* flex: 1;
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative; */
+}
+.nav a
+{
+text-decoration: none;
+color: #fff ;
+//display: flex;
+//justify-content: center;
+//align-items: center;
+//letter-spacing: 20px;
+transition: all 0.3s ease;
+}
+
+.nav ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+.nav li
+{
+    justify-content: center;
+    display: inline-flex;
+    margin: 0 20px;
+}
+.headline 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.card
+{
+    display: wrap;
+}
+h1
+{
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+/* styling for Main Hero section */
+
+.hero
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #7d541d; */
+    padding: 20px 0;
+}
+
+
+.hero-section
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.hero-section .cta_btn
+{
+    padding: 10px 20px;
+    background-color: hsl(32, 100%, 50%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.cta_btn:hover
+{
+    background-color: #000;
+}
+
+.hero-img
+{
+    flex: 1;
+    background-image: url('https://www.behance.net/gallery/151957023/Seasons-of-Baraka/modules/857807625');
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+}
+.hero-img img
+{
+    max-width: 100%;
+    height: auto;
+}
+/*
+.hero-img {
+    flex: 1;
+    background-image: url('link to image url');
+    background-size: cover;
+    background-position: center;
+    height: 100px;  Set your desired height 
+  }
+*/
+
+.carousel
+{
+    /* check out flex box for 6 x 6 grid */
+}
